@@ -1,0 +1,33 @@
+
+
+.app-layout{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: green;;
+    padding-bottom: 0px;
+    padding-top: 0px;;
+    margin: 0px;
+}
+
+.app-layout .menu-bar{
+    height: 100%;
+    background-color: #212c32;
+    padding:0px !important;
+}
+.app-layout .content-app{
+    height: 100%;
+    background-color: #f7f7f7;
+    padding:0px !important;
+}
+
+.app-layout .content-app .content-app-body{
+    height: calc(100% - 90px);
+color: black;
+padding:1rem;
+}
+
+
+.content-app-body .ui.header {
+    color: black;
+}
