@@ -1,24 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LayoutContainer from './containers/layout/layout';
+import MenuAdmin from './components/menu-admin/menu-admin';
+import LayoutState from './contexts/layout/layout.state';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LayoutState>
+        <LayoutContainer>
+        </LayoutContainer>
+      </LayoutState>
     </div>
   );
 }

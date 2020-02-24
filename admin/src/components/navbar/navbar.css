@@ -1,0 +1,20 @@
+.uwaiter-navbar {
+  background: red;
+  height: 90px;
+}
+
+.uwaiter-navbar .column {
+  background: #2d3a41;
+  padding-bottom: 0px !important;
+  color:#fff
+}
+
+.toggle-menu {
+  color: #ffff;
+  cursor: pointer;
+}
+
+
+.ui.secondary.menu .item {
+  color:#ffff
+}
